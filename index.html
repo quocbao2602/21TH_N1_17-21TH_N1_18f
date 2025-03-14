@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Giới Thiệu Nhóm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Website Giới Thiệu Nhóm</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="students/student1.html">Thành viên 1</a></li>
+                <li><a href="students/student2.html">Thành viên 2</a></li>
+                <li><a href="students/student3.html">Thành viên 3</a></li>
+                <!-- Thêm các thành viên khác -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Giới thiệu về nhóm</h2>
+        <p>Chúng tôi là một nhóm gồm các bạn trẻ năng động, sáng tạo và luôn không ngừng học hỏi. Với phương châm "Kết nối - Sáng tạo - Phát triển", nhóm hướng tới việc xây dựng những dự án chất lượng cao và có giá trị thực tiễn.</p>
+
+        <section class="member-list">
+            <div class="member-item" onclick="showMemberDetail('member1')">
+                <h3>Thành viên 1</h3>
+                <p>Vai trò: Trưởng nhóm - Quản lý dự án</p>
+            </div>
+            <div class="member-item" onclick="showMemberDetail('member2')">
+                <h3>Thành viên 2</h3>
+                <p>Vai trò: Lập trình viên Frontend</p>
+            </div>
+            <div class="member-item" onclick="showMemberDetail('member2')">
+                <h3>Thành viên 3</h3>
+                <p>Vai trò: Lập trình viên Game</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nhóm Chúng Tôi. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
